@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!--build:css dist/contacto.css-->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!--endbuild-->
+  <title>Hoteles</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Hoteles</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Nostros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Terminos y condiciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contactenos</a></li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+  <div class="jumbotron">
+    <h1>Hoteles</h1>
+  </div>
+  <div class="container">
+    <h1>Escriba un comentario</h1>
+    <form>
+      <div class="form-row">
+        <div class="from-group col-sm-6">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="from-group col-sm-6">
+          <label for="apellido">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" id="email" placeholder="Ingrese su email">
+      </div>
+      <div class="form-row">
+        <div class="from-group col-sm-9">
+          <label for="direccion">Direccion</label>
+          <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion">
+        </div>
+        <div class="from-group col-sm-3">
+          <label for="provincia">Provincia</label>
+          <select id="provincia" class="form-control">
+            <option selected> San Jóse</option>
+            <option> Alajuela</option>
+            <option> Heredia</option>
+            <option> Cartago</option>
+            <option> Puntarenas</option>
+            <option> Limon</option>
+            <option> Guanacaste</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" class="form-control" rows="10" placeholder="Escriba un comentario"></textarea>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck" />
+          <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
+        </div>
+      </div>
+      <button type="submit" class=" btn-primary" style="margin-top: 10px;">Enviar</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column">
+        <a href="www.facebook.com">Facebook</a>
+        <a href="www.instagram.com">Instagram</a>
+        <a href="www.twitter.com">Twitter</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column">
+        <address>
+          Costa Rica, Alajuela, Alajuela <br>
+          +86516364 <br>
+          gtorress106@gmail
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="www.facebook.com">Nosotros</a>
+        <a href="www.instagram.com">Precios</a>
+        <a href="www.twitter.com">Terminos y condiciones</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- build:js dist/contacto.js-->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!--endbuild-->
+</body>
+
+</html>
